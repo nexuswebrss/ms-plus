@@ -1,6 +1,6 @@
 import { motion } from 'motion/react';
 import { FormEvent } from 'react';
-import { Mail, Phone, MapPin, Send, Instagram, Facebook, Linkedin, Clock } from 'lucide-react';
+import { Mail, Phone, MapPin, Send, Instagram, Facebook, Linkedin, Clock, MessageCircle } from 'lucide-react';
 
 export default function Contact() {
   const handleSubmit = (e: FormEvent) => {
@@ -29,13 +29,29 @@ export default function Contact() {
 
             <div className="space-y-8">
               <div className="flex gap-6 items-start group">
+                <a 
+                  href={`https://wa.me/573105231936?text=${encodeURIComponent("Hola Misión Plus, me gustaría obtener más información.")}`}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="w-14 h-14 rounded-2xl bg-green-50 flex items-center justify-center text-[#25d366] transition-colors group-hover:bg-[#25d366] group-hover:text-white shrink-0"
+                >
+                  <MessageCircle size={24} />
+                </a>
+                <div>
+                  <h4 className="text-primary-blue font-bold text-lg mb-1">WhatsApp</h4>
+                  <p className="text-text-muted font-medium">+57 310 523 1936</p>
+                  <p className="text-text-muted text-sm italic">(Respuesta rápida vía chat)</p>
+                </div>
+              </div>
+
+              <div className="flex gap-6 items-start group">
                 <div className="w-14 h-14 rounded-2xl bg-accent-green/10 flex items-center justify-center text-accent-green transition-colors group-hover:bg-accent-green group-hover:text-white shrink-0">
                   <Phone size={24} />
                 </div>
                 <div>
                   <h4 className="text-primary-blue font-bold text-lg mb-1">Llámenos</h4>
                   <p className="text-text-muted font-medium">+57 310 523 1936</p>
-                  <p className="text-text-muted text-sm italic">(Disponible con atención inmediata)</p>
+                  <p className="text-text-muted text-sm italic">(Atención telefónica)</p>
                 </div>
               </div>
 
