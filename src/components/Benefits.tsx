@@ -1,5 +1,5 @@
 import { motion } from 'motion/react';
-import { Check } from 'lucide-react';
+import { Check, Star } from 'lucide-react';
 
 const benefits = [
   'Reducción de costos operativos',
@@ -8,6 +8,27 @@ const benefits = [
   'Soporte técnico especializado 24/7',
   'Procesos certificados de calidad',
   'Transparencia en la gestión',
+];
+
+const testimonials = [
+  {
+    name: 'Ana María G.',
+    role: 'Dir. de RRHH',
+    text: 'Puntualidad impecable en la nómina.',
+    stars: 5
+  },
+  {
+    name: 'Ricardo S.',
+    role: 'Gerente General',
+    text: 'Líderes en el Eje Cafetero.',
+    stars: 5
+  },
+  {
+    name: 'Dora L.',
+    role: 'Contadora',
+    text: 'Soporte técnico muy efectivo.',
+    stars: 4
+  }
 ];
 
 export default function Benefits() {
@@ -74,11 +95,23 @@ export default function Benefits() {
                 </blockquote>
              </div>
 
-             <div className="grid grid-cols-3 gap-4">
-                {[1, 2, 3].map((i) => (
-                  <div key={i} className="bg-white/10 backdrop-blur-md rounded-2xl h-32 flex items-center justify-center border border-white/10 group hover:bg-white/20 transition-all cursor-default overflow-hidden relative">
-                    <div className="text-white/20 font-display font-bold text-5xl absolute -bottom-4 -right-2">0{i}</div>
-                    <span className="text-white font-bold text-lg relative z-10 group-hover:scale-110 transition-transform tracking-tight">Kardex 0{i}</span>
+             <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+                {testimonials.map((t, i) => (
+                  <div key={i} className="bg-white/10 backdrop-blur-md rounded-2xl p-5 border border-white/10 flex flex-col justify-between hover:bg-white/20 transition-all group h-full">
+                    <div className="flex gap-1 mb-3">
+                      {[...Array(5)].map((_, idx) => (
+                        <Star 
+                          key={idx} 
+                          size={12} 
+                          className={idx < t.stars ? "fill-accent-green text-accent-green" : "text-white/20"} 
+                        />
+                      ))}
+                    </div>
+                    <p className="text-white text-xs leading-relaxed mb-4 italic">"{t.text}"</p>
+                    <div>
+                      <span className="text-white font-bold text-[10px] block truncate">{t.name}</span>
+                      <span className="text-white/50 text-[9px] uppercase tracking-tighter">{t.role}</span>
+                    </div>
                   </div>
                 ))}
              </div>
