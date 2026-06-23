@@ -60,7 +60,7 @@ export default function Footer() {
             <ul className="space-y-6">
               <li className="flex gap-4 items-start">
                 <MapPin size={20} className="text-accent-green shrink-0" />
-                <span className="text-sm">Pereira, Risaralda - Edificio Fiducentro</span>
+                <span className="text-sm">Edificio Torre Bolívar, Oficina 304, Carrera 7 No. 19-28, Pereira, Risaralda</span>
               </li>
               <li className="flex gap-4 items-start">
                 <Phone size={20} className="text-accent-green shrink-0" />
@@ -68,7 +68,7 @@ export default function Footer() {
               </li>
               <li className="flex gap-4 items-start">
                 <Mail size={20} className="text-accent-green shrink-0" />
-                <span className="text-sm">gerencia@misionplus.com.co</span>
+                <span className="text-sm">administrativo@estmisionplus.com</span>
               </li>
               <li className="flex gap-4 items-start">
                 <Clock size={20} className="text-accent-green shrink-0" />
@@ -83,7 +83,7 @@ export default function Footer() {
 
         <div className="pt-10 border-t border-white/5 flex flex-col md:flex-row justify-between items-center gap-6">
           <p className="text-xs tracking-widest uppercase opacity-50">
-            © {currentYear} Misión Plus Pereira. Todos los derechos reservados.
+            © {currentYear} Misión Plus S.A.S. | Pereira, Risaralda, Colombia. Todos los derechos reservados.
           </p>
           
           <div className="flex gap-8 text-xs tracking-widest uppercase opacity-50">

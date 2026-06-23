@@ -15,7 +15,7 @@ export default function About() {
             <div className="relative z-10 rounded-2xl overflow-hidden shadow-custom-lg border-8 border-white">
               <img 
                 src="https://images.unsplash.com/photo-1542744173-8e7e53415bb0?auto=format&fit=crop&q=80&w=1200" 
-                alt="Equipo de trabajo" 
+                alt="Equipo de Misión Plus, empresa de talento humano en Pereira" 
                 className="w-full h-auto transition-transform duration-700 hover:scale-105"
               />
             </div>
@@ -37,7 +37,7 @@ export default function About() {
           >
             <span className="text-accent-green font-bold uppercase tracking-widest text-sm mb-4 block">Sobre Nosotros</span>
             <h2 className="text-3xl md:text-5xl font-display font-bold text-primary-blue mb-8 leading-tight">
-              Su Socio Estratégico en la Gestión de <span className="text-accent-green">Personal</span>
+              Su Socio Estratégico en <span className="text-accent-green">Talento Humano</span> en Pereira
             </h2>
             
             <p className="text-lg text-text-muted mb-6 leading-relaxed">

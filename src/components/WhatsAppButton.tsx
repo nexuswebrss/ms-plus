@@ -16,7 +16,7 @@ export default function WhatsAppButton() {
       animate={{ scale: 1, opacity: 1 }}
       whileHover={{ scale: 1.1, rotate: 10 }}
       whileTap={{ scale: 0.9 }}
-      aria-label="Contact via WhatsApp"
+      aria-label="Contactar a Misión Plus por WhatsApp"
     >
       <MessageCircle size={32} className="fill-current" />
       <span className="absolute right-full mr-4 bg-white text-text-dark px-3 py-1 rounded-lg text-sm font-medium shadow-md opacity-0 group-hover:opacity-100 transition-opacity whitespace-nowrap pointer-events-none border border-gray-100">

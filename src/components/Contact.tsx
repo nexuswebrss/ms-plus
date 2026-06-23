@@ -8,6 +8,20 @@ export default function Contact() {
     // Logic for form submission could go here
     alert('Mensaje enviado con éxito. Nos pondremos en contacto pronto.');
   };
+    const socialLinks = [
+    {
+      icon: Instagram,
+      href: "https://www.instagram.com/misionplus/",
+    },
+    {
+      icon: Facebook,
+      href: "https://www.facebook.com/p/Misi%C3%B3n-Plus-100064284062157/",
+    },
+    {
+      icon: Linkedin,
+      href: "https://www.linkedin.com/company/mision-plus/",
+    },
+  ];
 
   return (
     <section id="contacto" className="py-24 bg-white overflow-hidden">
@@ -61,7 +75,7 @@ export default function Contact() {
                 </div>
                 <div>
                   <h4 className="text-primary-blue font-bold text-lg mb-1">Escríbanos</h4>
-                  <p className="text-text-muted font-medium">gerencia@misionplus.com.co</p>
+                  <p className="text-text-muted font-medium">administrativo@estmisionplus.com</p>
                 </div>
               </div>
 
@@ -71,7 +85,7 @@ export default function Contact() {
                 </div>
                 <div>
                   <h4 className="text-primary-blue font-bold text-lg mb-1">Visítenos</h4>
-                  <p className="text-text-muted font-medium">Centro Comercial Fiducentro, Pereira, Risaralda</p>
+                  <p className="text-text-muted font-medium">Edificio Torre Bolívar, Oficina 304, Carrera 7 No. 19-28, Pereira, Risaralda</p>
                 </div>
               </div>
 
@@ -90,11 +104,17 @@ export default function Contact() {
             </div>
 
             <div className="mt-12 flex gap-4">
-               {[Instagram, Facebook, Linkedin].map((Icon, i) => (
-                 <a key={i} href="#" className="w-10 h-10 rounded-full border border-gray-200 flex items-center justify-center text-gray-400 hover:text-accent-green hover:border-accent-green transition-all">
-                    <Icon size={20} />
-                 </a>
-               ))}
+              {socialLinks.map(({ icon: Icon, href }, i) => (
+                <a
+                  key={i}
+                  href={href}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="w-10 h-10 rounded-full border border-gray-200 flex items-center justify-center text-gray-400 hover:text-accent-green hover:border-accent-green transition-all"
+                >
+                  <Icon size={20} />
+                </a>
+              ))}
             </div>
           </motion.div>
 

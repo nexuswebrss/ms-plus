@@ -47,7 +47,7 @@ export default function Services() {
         <div className="text-center max-w-3xl mx-auto mb-20">
           <span className="text-accent-green font-bold uppercase tracking-widest text-sm mb-4 block">Portafolio</span>
           <h2 className="text-3xl md:text-5xl font-display font-bold text-primary-blue mb-6">
-            Servicios Integrales para su <span className="text-accent-green">Empresa</span>
+            Servicios de Talento Humano en <span className="text-accent-green">Pereira</span> y el <span className="text-accent-green">Eje Cafetero</span>
           </h2>
           <p className="text-text-muted text-lg">
             Ofrecemos una amplia gama de soluciones diseñadas para potenciar el crecimiento de su negocio y la bienestar de sus trabajadores.
