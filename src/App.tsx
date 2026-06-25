@@ -13,6 +13,8 @@ import Benefits from './components/Benefits';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 import WhatsAppButton from './components/WhatsAppButton';
+import { Analytics } from '@vercel/analytics/react';
+import { SpeedInsights } from '@vercel/speed-insights/react';
 
 export default function App() {
   const [isLoaded, setIsLoaded] = useState(false);
@@ -27,7 +29,7 @@ export default function App() {
     // Simulate content loading
     const timer = setTimeout(() => {
       setIsLoaded(true);
-    }, 1500);
+    }, 0);
     return () => clearTimeout(timer);
   }, []);
 
@@ -77,6 +79,8 @@ export default function App() {
 
       <Footer />
       <WhatsAppButton />
+      <Analytics />
+      <SpeedInsights />
     </div>
   );
 }

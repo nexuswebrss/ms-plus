@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://mision-plus.vercel.app/sitemap.xml
+Sitemap: https://misionplus.co/sitemap.xml
