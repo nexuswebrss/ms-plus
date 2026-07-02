@@ -60,6 +60,7 @@ export default function Navbar() {
 
         {/* Mobile Menu Button */}
         <button 
+          aria-label={isMobileMenuOpen ? "Cerrar menú" : "Abrir menú"}
           className={`md:hidden p-2 transition-colors ${
             isScrolled ? 'text-text-dark' : 'text-white'
           }`}

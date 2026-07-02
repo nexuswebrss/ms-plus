@@ -59,7 +59,7 @@ const socialLinks = [
                   <MessageCircle size={24} />
                 </a>
                 <div>
-                  <h4 className="text-primary-blue font-bold text-lg mb-1">WhatsApp</h4>
+                  <h3 className="text-primary-blue font-bold text-lg mb-1">WhatsApp</h3>
                   <p className="text-text-muted font-medium">+57 310 523 1936</p>
                   <p className="text-text-muted text-sm italic">(Respuesta rápida vía chat)</p>
                 </div>
@@ -70,7 +70,7 @@ const socialLinks = [
                   <Phone size={24} />
                 </div>
                 <div>
-                  <h4 className="text-primary-blue font-bold text-lg mb-1">Llámenos</h4>
+                  <h3 className="text-primary-blue font-bold text-lg mb-1">Llámenos</h3>
                   <p className="text-text-muted font-medium">+57 310 523 1936</p>
                   <p className="text-text-muted text-sm italic">(Atención telefónica)</p>
                 </div>
@@ -81,7 +81,7 @@ const socialLinks = [
                   <Mail size={24} />
                 </div>
                 <div>
-                  <h4 className="text-primary-blue font-bold text-lg mb-1">Escríbanos</h4>
+                  <h3 className="text-primary-blue font-bold text-lg mb-1">Escríbanos</h3>
                   <p className="text-text-muted font-medium">administrativo@estmisionplus.com</p>
                 </div>
               </div>
@@ -91,7 +91,7 @@ const socialLinks = [
                   <MapPin size={24} />
                 </div>
                 <div>
-                  <h4 className="text-primary-blue font-bold text-lg mb-1">Visítenos</h4>
+                  <h3 className="text-primary-blue font-bold text-lg mb-1">Visítenos</h3>
                   <p className="text-text-muted font-medium">Edificio Torre Bolívar, Oficina 304, Carrera 7 No. 19-28, Pereira, Risaralda</p>
                 </div>
               </div>
@@ -101,7 +101,7 @@ const socialLinks = [
                   <Clock size={24} />
                 </div>
                 <div>
-                  <h4 className="text-primary-blue font-bold text-lg mb-1">Horario de Atención</h4>
+                  <h3 className="text-primary-blue font-bold text-lg mb-1">Horario de Atención</h3>
                   <p className="text-text-muted text-sm">Lunes a Viernes: 7:30 a. m. - 4:00 p. m.</p>
                   <span className="inline-block mt-1 px-2 py-0.5 rounded text-[10px] font-bold uppercase tracking-tighter bg-red-50 text-red-500 border border-red-100">
                     Sábados y Domingos: Cerrado

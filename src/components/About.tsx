@@ -52,11 +52,11 @@ export default function About() {
 
             <div className="grid grid-cols-2 gap-8 mb-10">
               <div>
-                <h4 className="font-display font-bold text-primary-blue text-xl mb-2">Misión</h4>
+                <h3 className="font-display font-bold text-primary-blue text-xl mb-2">Misión</h3>
                 <p className="text-text-muted text-sm"> Brindar soluciones eficaces y personalizadas en la administración de nómina y selección de personal.</p>
               </div>
               <div>
-                <h4 className="font-display font-bold text-primary-blue text-xl mb-2">Visión</h4>
+                <h3 className="font-display font-bold text-primary-blue text-xl mb-2">Visión</h3>
                 <p className="text-text-muted text-sm">Ser la empresa líder en consultoría de talento humano en el Eje Cafetero para el año 2028.</p>
               </div>
             </div>

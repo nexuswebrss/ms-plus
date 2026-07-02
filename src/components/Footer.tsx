@@ -88,13 +88,13 @@ export default function Footer() {
         </div>
 
         <div className="pt-10 border-t border-white/5 flex flex-col md:flex-row justify-between items-center gap-6">
-          <p className="text-xs tracking-widest uppercase opacity-50">
+          <p className="text-xs tracking-widest uppercase text-slate-500">
             © {currentYear} Misión Plus S.A.S. | Pereira, Risaralda, Colombia. Todos los derechos reservados.
           </p>
           
           <div className="flex gap-8 text-xs tracking-widest uppercase opacity-50">
-            <a href="#" className="hover:text-white transition-colors">Privacidad</a>
-            <a href="#" className="hover:text-white transition-colors">Términos</a>
+            <a href="#" className="text-slate-500 hover:text-white transition-colors">Privacidad</a>
+            <a href="#" className="text-slate-500 hover:text-white transition-colors">Términos</a>
           </div>
 
           <motion.button
