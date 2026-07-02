@@ -33,14 +33,20 @@ export default function Footer() {
           <div className="lg:col-span-1">
             <h4 className="text-white font-display font-bold text-lg mb-8 uppercase tracking-widest text-sm underline decoration-accent-green underline-offset-8">Enlaces</h4>
             <ul className="space-y-4">
-              {['Inicio', 'Sobre Nosotros', 'Servicios', 'Beneficios', 'Contacto'].map((item) => (
-                <li key={item}>
-                  <a href={`#${item.toLowerCase().replace(' ', '')}`} className="hover:text-white transition-colors flex items-center gap-2 group">
-                    <span className="w-0 h-[1px] bg-accent-green transition-all group-hover:w-4"></span>
-                    {item}
-                  </a>
-                </li>
-              ))}
+            {[
+              { label: 'Inicio', href: '#inicio' },
+              { label: 'Sobre Nosotros', href: '#nosotros' },
+              { label: 'Servicios', href: '#servicios' },
+              { label: 'Beneficios', href: '#beneficios' },
+              { label: 'Contacto', href: '#contacto' },
+            ].map((item) => (
+              <li key={item.label}>
+                <a href={item.href} className="hover:text-white transition-colors flex items-center gap-2 group">
+                  <span className="w-0 h-[1px] bg-accent-green transition-all group-hover:w-4"></span>
+                  {item.label}
+                </a>
+              </li>
+            ))}
             </ul>
           </div>
 

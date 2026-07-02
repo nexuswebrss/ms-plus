@@ -1,6 +1,6 @@
 import { motion } from 'motion/react';
 import { FormEvent } from 'react';
-import { Mail, Phone, MapPin, Send, Instagram, Facebook, Linkedin, Clock, MessageCircle } from 'lucide-react';
+import { Mail, Phone, MapPin, Send, Instagram, Facebook, Clock, MessageCircle } from 'lucide-react';
 
 export default function Contact() {
   const handleSubmit = (e: FormEvent) => {
@@ -16,10 +16,6 @@ export default function Contact() {
     {
       icon: Facebook,
       href: "https://www.facebook.com/p/Misi%C3%B3n-Plus-100064284062157/",
-    },
-    {
-      icon: Linkedin,
-      href: "https://www.linkedin.com/company/mision-plus/",
     },
   ];
 
@@ -186,6 +182,7 @@ export default function Contact() {
         {/* Floating map placeholder */}
         <div className="mt-24 rounded-3xl overflow-hidden h-[400px] border-8 border-gray-50 shadow-2xl relative">
           <iframe 
+            title="Ubicación Misión Plus Pereira"
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3975.875604169728!2d-75.6961111!3d4.8144444!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e388748eb4199bd%3A0x6b1ec1f8e8b0934c!2sCc%20Fiducentro!5e0!3m2!1ses!2sco!4v1700680000000!5m2!1ses!2sco" 
             width="100%" 
             height="100%" 

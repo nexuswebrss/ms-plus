@@ -24,7 +24,7 @@ export default function About() {
             <div className="absolute -bottom-6 -right-6 w-48 h-48 bg-primary-blue/10 rounded-full blur-3xl z-0"></div>
             
             <div className="absolute -bottom-10 -left-10 bg-white p-8 rounded-2xl shadow-xl z-20 hidden md:block border border-gray-100">
-               <span className="block text-4xl font-display font-bold text-primary-blue mb-1">+15</span>
+               <span className="block text-4xl font-display font-bold text-primary-blue mb-1">+10</span>
                <span className="text-text-muted text-sm uppercase tracking-wider font-semibold">Años de Experiencia</span>
             </div>
           </motion.div>
