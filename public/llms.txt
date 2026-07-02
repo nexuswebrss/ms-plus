@@ -1,8 +1,20 @@
 # Misión Plus S.A.S.
 
-Empresa de servicios temporales y administración de nómina en Pereira, Risaralda, Colombia. Fundada en 2015.
+> Empresa de servicios temporales y talento humano en Pereira, Risaralda, Colombia.
 
-Servicios: administración de nómina, suministro de personal temporal, reclutamiento y selección, gestión de talento humano.
+## Servicios
+- Suministro de personal temporal
+- Administración de nómina
+- Reclutamiento y selección
+- Seguridad y salud en el trabajo (SST)
+- Estudios de seguridad
+- Consultoría especializada
 
-Contacto: administrativo@estmisionplus.com | 606 314 8919
-Dirección: Edificio Torre Bolívar, Oficina 304, Carrera 7 No. 19-28, Pereira, Risaralda.
+## Contacto
+- Teléfono: +57 310 523 1936
+- Email: administrativo@estmisionplus.com
+- Dirección: Edificio Torre Bolívar, Oficina 304, Carrera 7 No. 19-28, Pereira, Risaralda
+- Horario: Lunes a Viernes 7:30 AM - 4:00 PM
+
+## Cobertura
+Pereira, Dosquebradas, Santa Rosa de Cabal, Eje Cafetero, Risaralda, Colombia

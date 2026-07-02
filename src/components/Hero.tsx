@@ -6,7 +6,7 @@ export default function Hero() {
     <section id="inicio" className="relative h-screen flex items-center justify-center overflow-hidden">
       {/* Background with Overlay */}
       <div 
-        className="absolute inset-0 z-0 bg-cover bg-center bg-fixed"
+        className="absolute inset-0 z-0 bg-cover bg-center md:bg-fixed"
         style={{ backgroundImage: "url('https://images.unsplash.com/photo-1552664730-d307ca884978?auto=format&fit=crop&q=80&w=1920')" }}
       >
         <div className="absolute inset-0 bg-black/50 backdrop-brightness-75"></div>

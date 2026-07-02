@@ -8,16 +8,18 @@ export default function Contact() {
     // Logic for form submission could go here
     alert('Mensaje enviado con éxito. Nos pondremos en contacto pronto.');
   };
-    const socialLinks = [
-    {
-      icon: Instagram,
-      href: "https://www.instagram.com/misionplus/",
-    },
-    {
-      icon: Facebook,
-      href: "https://www.facebook.com/p/Misi%C3%B3n-Plus-100064284062157/",
-    },
-  ];
+const socialLinks = [
+  {
+    icon: Instagram,
+    href: "https://www.instagram.com/misionplus/",
+    label: "Instagram de Misión Plus",
+  },
+  {
+    icon: Facebook,
+    href: "https://www.facebook.com/p/Misi%C3%B3n-Plus-100064284062157/",
+    label: "Facebook de Misión Plus",
+  },
+];
 
   return (
     <section id="contacto" className="py-24 bg-white overflow-hidden">
@@ -43,6 +45,7 @@ export default function Contact() {
                   href={`https://wa.me/573105231936?text=${encodeURIComponent("Hola Misión Plus, me gustaría obtener más información.")}`}
                   target="_blank"
                   rel="noopener noreferrer"
+                  aria-label="Contactar Misión Plus por WhatsApp"
                   className="w-14 h-14 rounded-2xl bg-green-50 flex items-center justify-center text-[#25d366] transition-colors group-hover:bg-[#25d366] group-hover:text-white shrink-0"
                 >
                   <MessageCircle size={24} />
