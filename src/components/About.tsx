@@ -14,7 +14,9 @@ export default function About() {
           >
             <div className="relative z-10 rounded-2xl overflow-hidden shadow-custom-lg border-8 border-white">
               <img 
-                src="https://images.unsplash.com/photo-1542744173-8e7e53415bb0?auto=format&fit=crop&q=80&w=1200" 
+                src="https://images.unsplash.com/photo-1542744173-8e7e53415bb0?auto=format&fit=crop&q=80&w=600"
+                srcSet="https://images.unsplash.com/photo-1542744173-8e7e53415bb0?auto=format&fit=crop&q=80&w=600 600w, https://images.unsplash.com/photo-1542744173-8e7e53415bb0?auto=format&fit=crop&q=80&w=1200 1200w"
+                sizes="(max-width: 768px) 100vw, 50vw"
                 alt="Equipo de Misión Plus, empresa de talento humano en Pereira"
                 width="1200"
                 height="800"
