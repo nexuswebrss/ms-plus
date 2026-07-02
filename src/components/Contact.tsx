@@ -10,14 +10,22 @@ export default function Contact() {
   };
 const socialLinks = [
   {
-    icon: Instagram,
-    href: "https://www.instagram.com/misionplus/",
     label: "Instagram de Misión Plus",
+    href: "https://www.instagram.com/misionplus/",
+    svg: (
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+        <rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/>
+      </svg>
+    ),
   },
   {
-    icon: Facebook,
-    href: "https://www.facebook.com/p/Misi%C3%B3n-Plus-100064284062157/",
     label: "Facebook de Misión Plus",
+    href: "https://www.facebook.com/p/Misi%C3%B3n-Plus-100064284062157/",
+    svg: (
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+        <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/>
+      </svg>
+    ),
   },
 ];
 
@@ -103,15 +111,16 @@ const socialLinks = [
             </div>
 
             <div className="mt-12 flex gap-4">
-              {socialLinks.map(({ icon: Icon, href }, i) => (
+              {socialLinks.map(({ svg, href, label }, i) => (
                 <a
                   key={i}
                   href={href}
                   target="_blank"
                   rel="noopener noreferrer"
+                  aria-label={label}
                   className="w-10 h-10 rounded-full border border-gray-200 flex items-center justify-center text-gray-400 hover:text-accent-green hover:border-accent-green transition-all"
                 >
-                  <Icon size={20} />
+                  {svg}
                 </a>
               ))}
             </div>
